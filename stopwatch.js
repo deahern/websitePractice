@@ -18,7 +18,7 @@ function callTimer(){
 else{
         milisec=0;
 } 
-document.getElementById("timer").innerHTML=min0.toString().padStart(2,'0')+':'+sec.toString().padStart(2,'0')+':'+milisec.toString().padStart(2,'0');
+document.getElementById("timer").innerHTML=min.toString().padStart(2,'0')+':'+sec.toString().padStart(2,'0')+':'+milisec.toString().padStart(2,'0');
 
 }
 
